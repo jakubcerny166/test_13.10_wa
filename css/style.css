@@ -20,5 +20,26 @@ h1{
 }
 
 body{
-	background-color: lightgreen;
+	background-color: #F2F5A9;
+}
+#karty{
+	display: inline-table;
+}
+#card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 390px;
+  background-color: white;
+}
+
+#container {
+  padding: 30px 15px;
+  border-radius: 0 0 5px 5px;
+  transition: width 3s;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  height: 350px;
+  margin: 5%;
 }
