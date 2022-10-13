@@ -19,11 +19,18 @@ h1{
 	text-align: center;
 }
 
-body{
+#indexcolor{
 	background-color: #F2F5A9;
 }
+#cardcolor{
+	background-color: lightgreen;
+}
+
+#aboutcolor{
+	background-color: #A9BCF5;
+}
 #karty{
-	display: inline-table;
+	display: grid;
 }
 #card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -42,4 +49,19 @@ img {
   border-radius: 5px 5px 0 0;
   height: 350px;
   margin: 5%;
+}
+#grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: gray;
+  padding: 10px;
+}
+
+#grid-item {
+  background-color: lightgray;
+  border: 1px black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
